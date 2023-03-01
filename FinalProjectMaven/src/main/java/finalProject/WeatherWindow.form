@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel5"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Weather"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="33" red="33" type="rgb"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="pokeWinBtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="544" pref="544" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="high4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="degreeSign4" min="-2" pref="7" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tempChar8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="low4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="degreeSign8" min="-2" pref="7" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tempChar9" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Time" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="time" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Location" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="currentLocation" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="stateLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="ChangeLocBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cityNameTxt" min="-2" pref="120" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Date" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="currentDate" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Current_Weather" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="currentWeather" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Temperature" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="currentTemp" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="degreeSign" min="-2" pref="7" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tempChar1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Celsius" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Farenheit" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="day" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="high" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="day1" min="-2" pref="142" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="low1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="degreeSign12" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempChar4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="high1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="degreeSign1" min="-2" pref="7" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempChar2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="low" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="low2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="degreeSign2" min="-2" pref="7" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tempChar5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="day2" min="-2" pref="140" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="high2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="degreeSign10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="tempChar3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="title" min="-2" pref="206" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="day3" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="high3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="degreeSign3" min="-2" pref="7" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tempChar6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="low3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="degreeSign9" min="-2" pref="7" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="tempChar7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="day4" min="-2" pref="140" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="day5" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="high5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="degreeSign5" min="-2" pref="7" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempChar10" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="low5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign13" min="-2" pref="7" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempChar11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="low6" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="degreeSign11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="tempChar13" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="12" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="high6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="degreeSign6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="tempChar12" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="day6" min="-2" pref="139" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="weatherImg" min="-2" pref="200" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="title" min="-2" pref="68" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Time" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="time" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Date" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="currentDate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Location" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="currentLocation" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="ChangeLocBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cityNameTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="stateLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Current_Weather" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="currentWeather" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Temperature" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="currentTemp" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="degreeSign" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tempChar1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="Farenheit" max="32767" attributes="0"/>
+                          <Component id="Celsius" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="209" max="32767" attributes="0"/>
+                      <Component id="weatherImg" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="pokeWinBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="low1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="degreeSign12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tempChar4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="day" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="day1" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="day2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="day3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="day4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="day5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="day6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="high1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="high2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="high3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="high4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="high5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="high6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="high" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Component id="low" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="degreeSign9" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="low3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="low2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="low4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="low5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="low6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="degreeSign11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tempChar13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="title">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Weathermon.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Time">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Time.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Date">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Date.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Location">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Location.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Current_Weather">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Current-Weather.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Temperature">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Temperature.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="pokeWinBtn">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Pokmon.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pokeWinBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentTemp">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTemp()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Celsius">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Celsius.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CelsiusActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Farenheit">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Farenheit.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FarenheitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentWeather">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getResponse(getLocationResp(&quot;beverly&quot;)[0].getLat(),getLocationResp(&quot;beverly&quot;)[0].getLon()).getList()[0].getWeather()[0].getDescription()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentLocation">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getResponse(getLocationResp(&quot;beverly&quot;)[0].getLat(), getLocationResp(&quot;beverly&quot;)[0].getLon()).getCity().getName()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="currentDate">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(0)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="time">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="dtf.format(now)" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="//from https://www.javatpoint.com/java-get-current-date&#xa;DateTimeFormatter dtf = DateTimeFormatter.ofPattern(&quot;HH:mm&quot;);  &#xa;LocalDateTime now = LocalDateTime.now();"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="//end of code"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(0)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Low.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/High.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Day.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value=":"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(7)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(15)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(23)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(31)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="day6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setDate(39)[0]" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(0)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(7)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(15)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(23)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(31)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="high6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempHigh(39)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(0)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(7)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(15)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(23)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(31)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="low6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="setCurrentTempLow(39)" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="weatherImg">
+    </Component>
+    <Component class="javax.swing.JLabel" name="degreeSign13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#xba;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="ChangeLocBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Change Location"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChangeLocBtnActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="tempChar13">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="F"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityNameTxt">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter City Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stateLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Krungthep" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="getLocationResp(&quot;Beverly&quot;)[0].getState()&#xa;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
